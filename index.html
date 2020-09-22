@@ -15,70 +15,70 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light  bg-danger">
-            <div>
-                <p><i class='fas'>&#xf73d;</i> 25&deg;  Abeokuta South, NG <i class='fas'>&#xf105;</i></p>
+        <nav class="navbar navbar-light  bg-danger justify-content-between mb-3">
+            <div class="d-none d-lg-block">
+                <p><i class='fas'>&#xf73d;</i> 25&deg; Abeokuta South, NG <i class='fas'>&#xf105;</i></p>
                 <p>Mon, Sep 21, 2020</p>
             </div>
-            <a class="navbar-brand text-white font-weight-bolder" href="#">Newsweek</a>
+            <div><a class="navbar-brand text-white font-weight-bolder" href="#">Newsweek</a></div>
             <div class="navlink-right d-flex">
-                <a class="nav-link" href="#"><i class="fas fa-portrait fa-2x"></i></a>
-                <a href="#" class="nav-link text-white">LOGIN</a>
-                <button class="btn btn-warning rounded-pill" type="button">Subscribe <i
-                        class='fas'>&#xf105;</i></button>
-                <span class="navbar-toggler-icon"></span>
-            </div>
+                <a class="nav-link" href="#"><i class="fas fa-portrait fa-2x align-self-center d-md-none"></i></a>
+                <a href="#" class="nav-link text-white align-self-center d-none d-md-flex">LOGIN</a>
 
+                <div><button class="btn btn-warning rounded-pill mt-2 mr-2" type="button">Subscribe <i
+                            class='fas'>&#xf105;</i></button></div>
+                <div class="navbar-toggler-icon align-self-center"></div>
+            </div>
         </nav>
-        <div class="nav justify-content-start">
+        <div class="center-menu nav justify-content-start d-none d-lg-block">
             <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link  border-right" href="#">U.S</a>
+                    <a class="nav-link  border-right" href="#">U.S</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link border-right" href="#">World</a>
+                    <a class="nav-link border-right" href="#">World</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link border-right" href="#">Business</a>
+                    <a class="nav-link border-right" href="#">Business</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link border-right" href="#">Tech & Science</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link border-right" href="#">Culture</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link border-right" href="#">Newsgeek</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link border-right" href="#">Sports</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link border-right" href="#">Health</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link border-right" href="#">The Debate</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link border-right" href="#">Vantage</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link border-right" href="#">Weather</a>
-                  </li>
-                  
+                </li>
+
             </ul>
             <button>Search <i class="fas fa-search"></i> </button>
         </div>
-        <div>
-           <ul class="nav justify-content-start">
+        <div class="bottom-menu d-none d-lg-block">
+            <ul class="nav justify-content-start">
                 <li class="nav-item">
-                <a class="nav-link active" href="#">TRENDING</a>
+                    <a class="nav-link active" href="#">TRENDING</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">DONALD TRUMP</a>
+                    <a class="nav-link" href="#">DONALD TRUMP</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">JOE BIDEN</a>
+                    <a class="nav-link" href="#">JOE BIDEN</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">CHINA</a>
@@ -90,8 +90,69 @@
                     <a class="nav-link" href="#">2020 ELECTION</a>
                 </li>
             </ul>
-         </div>     
+        </div>
     </header>
+    <main>
+        <div class="storie-cards px-3">
+            <h5>TOP STORY</h5>
+            <div class="card">
+                <img src="images/donald-trump.jpg" class="card-img-top" alt="image of donald-trump">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bolder">Trump Says Coronavirus 'Affects Virtually Nobody' at Ohio
+                        Rally </h5>
+                    <p class="card-text">At a campaign event on Monday, Joe Biden struck a different tone to the
+                        president, stating the number of dead cannot become "background noise."</p>
+                </div>
+            </div>
+        </div>
+        <div class="storie-cards px-3">
+            <h5 class="mb-1">FEATURED STORIES</h5>
+            <div class="card">
+                <img src="images/politics.jpg" class="card-img-top" alt="image of politics">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bolder">Pelosi Says Republicans Are Disrespecting Ginsburg</h5>
+                    <p class="card-text">The Speaker of the House, Nancy Pelosi, has accused Republicans of
+                        disrespecting the late Justice Ruth Bader Ginsburg in their rush to choose a successor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="storie-cards px-3">
+            <div class="card">
+                <img src="images/us.png" class="card-img-top" alt="image of us-utah">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bolder">Utah Police Release Body Cam Footage of Shooting of Boy
+                        With Autism </h5>
+                    <p class="card-text">Officers chased the boy, called Linden, and shot him after his mother called
+                        911 to get him mental health treatment in Salt Lake City, Utah.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="storie-cards px-3">
+            <div class="card">
+                <img src="images/my-turn.jpg" class="card-img-top" alt="image of my-turn">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bolder">'Why I Gave up a Triathlon Medal at the Finish Line' </h5>
+                    <p class="card-text">Towards the finish line, James was third and I was fourth, and he was running
+                        extremely quickly. But unfortunately, he wasn't able to take the final turn before the finish
+                        line well, and he ran into the fences. At which point I passed him.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="storie-cards px-3">
+            <div class="card">
+                <img src="images/lindsey-graham.jpg" class="card-img-top" alt="image of lindsey-graham">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bolder">Lindsey Graham Says Democrats Will Try to 'Destroy' SCOTUS
+                        Nominee</h5>
+                    <p class="card-text">Senator Lindsey Graham has suggested Democrats will do everything possible to
+                        keep the vacant Supreme Court seat open.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
