@@ -99,7 +99,7 @@ form {
     margin: 0 auto;
 }
 
-/* ---Magazine--- */
+/* ---Magazine-section--- */
 
 .cover,
 .focus {
@@ -112,5 +112,11 @@ form {
 
 .focus {
   bottom: 13px;
+}
+
+/* ---editor-section--- */
+
+.editor-bagde {
+  bottom: 0;
 }
 
