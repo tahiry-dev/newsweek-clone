@@ -99,3 +99,18 @@ form {
     margin: 0 auto;
 }
 
+/* ---Magazine--- */
+
+.cover,
+.focus {
+  background-color: #f00;
+}
+
+.news {
+  color: #f00;
+}
+
+.focus {
+  bottom: 13px;
+}
+
