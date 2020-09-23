@@ -53,14 +53,12 @@
 }
 
 .ranking {
-    /*border: 1px solid gray;*/
+    
     width: 22vw;
     background-color: #e3e4e6;
     color: blue;
-    /*display: block;*/
     position: absolute;
     top: 34.3vh;
-    /*left: 0;*/
     z-index: 100;
 }
 
@@ -79,5 +77,25 @@
 .culture-badge {
   background-color: #e3e4e6;
   top: 51.5vh;
+}
+
+/* ---Sponsored-insight--- */
+
+.sponsored-insight {
+    width: 200px;
+    background-color: #e3e4e6;
+    color: blue;
+    top: 33.3vh;
+}
+
+.icon-n img {
+    width: 40px;
+}
+
+form {
+    background-color: #F4F5F6;
+    width: 360px;
+    height: 200px;
+    margin: 0 auto;
 }
 
