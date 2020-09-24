@@ -164,17 +164,23 @@ a {
   color: rgb(143, 132, 132);
 }
 
-.star img {
-  border: 1px solid red;
-  width: 100%;
-  background-size: cover;
+.star {
+  font-size: 13px;
 }
+
+.flag {
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 
 /* ---Travel and culture--- */
 
 .culture-badge {
   background-color: #e3e4e6;
-  top: 51.5vh;
+  top: 48.5vh;
+  width: auto;
 }
 
 /* ---Sponsored-insight--- */
@@ -205,7 +211,8 @@ form {
   background-color: #f00;
 }
 
-.news {
+.news,
+.us-bottom {
   color: #f00;
 }
 
@@ -228,6 +235,18 @@ form {
     background-color: #e3e4e6;
     top: 34.3vh;
     padding: 0 15px 0 15px;
+}
+
+.see-all {
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+}
+
+.flag-2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 /*Subscribe section*/
