@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <div class="entire-section">
   <header>
     <nav class="navbar d-flex align-items-center">
       <div class="d-none d-lg-block">
@@ -68,14 +69,14 @@
         <li class="nav-item">
           <a class="nav-link border-right" href="#">Weather</a>
         </li>
-
+        <li class="mt-2 ml-2">Search <i class="fas fa-search"></i> </li>
       </ul>
-      <button>Search <i class="fas fa-search"></i> </button>
+      
     </div>
     <div class="bottom-menu d-none d-lg-block">
-      <ul class="nav justify-content-start">
+      <ul class="nav justify-content-start donald">
         <li class="nav-item">
-          <a class="nav-link active" href="#">TRENDING</a>
+          <a id="trending" class="nav-link active" href="#">TRENDING</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">DONALD TRUMP</a>
@@ -96,247 +97,252 @@
     </div>
   </header>
   <main>
-    <h5 class="ml-3 text-muted">TOP STORY</h5>
-    <div class="storie-cards px-3">
-      <p class="ranking story text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
+      <div class="feature mt-4 mb-2 py-3">
+           <h5 class="ml-3 text-muted mt-3">TOP STORY</h5>
+            <div class="storie-cards px-3">
+              <p class="ranking story text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
 
-      <div class="card">
-        <img src="images/donald-trump.jpg" class="card-img-top" alt="image of donald-trump">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bolder">Trump Says Coronavirus 'Affects Virtually Nobody' at Ohio
-            Rally </h5>
-          <p class="card-text">At a campaign event on Monday, Joe Biden struck a different tone to the
-            president, stating the number of dead cannot become "background noise."</p>
-        </div>
-      </div>
-    </div>
-    <h5 class="mb-1 ml-3 text-muted">FEATURED STORIES</h5>
-    <div class="storie-cards px-3">
-      <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
-
-      <div class="card">
-        <img src="images/politics.jpg" class="card-img-top" alt="image of politics">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bolder">Pelosi Says Republicans Are Disrespecting Ginsburg</h5>
-          <p class="card-text">The Speaker of the House, Nancy Pelosi, has accused Republicans of
-            disrespecting the late Justice Ruth Bader Ginsburg in their rush to choose a successor.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="storie-cards px-3">
-      <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">U.S</p>
-      <div class="card">
-        <img src="images/us.png" class="card-img-top" alt="image of us-utah">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bolder">Utah Police Release Body Cam Footage of Shooting of Boy
-            With Autism </h5>
-          <p class="card-text">Officers chased the boy, called Linden, and shot him after his mother called
-            911 to get him mental health treatment in Salt Lake City, Utah.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="storie-cards px-3">
-      <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">MY TURN</p>
-      <div class="card">
-        <img src="images/my-turn.jpg" class="card-img-top" alt="image of my-turn">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bolder">'Why I Gave up a Triathlon Medal at the Finish Line' </h5>
-          <p class="card-text">Towards the finish line, James was third and I was fourth, and he was running
-            extremely quickly. But unfortunately, he wasn't able to take the final turn before the finish
-            line well, and he ran into the fences. At which point I passed him.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="storie-cards px-3">
-      <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
-      <div class="card">
-        <img src="images/lindsey-graham.jpg" class="card-img-top" alt="image of lindsey-graham">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bolder">Lindsey Graham Says Democrats Will Try to 'Destroy' SCOTUS
-            Nominee</h5>
-          <p class="card-text">Senator Lindsey Graham has suggested Democrats will do everything possible to
-            keep the vacant Supreme Court seat open.</p>
-        </div>
-      </div>
-    </div>
-    <section class="container">
-      <h5>THE DEBATE</h5>
-      <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
-
-        <div class=" text-center d-flex align-items-center justify-content-center"></div>
-        <hr>
-
-      </div>
-
-      <div class="row d-flex justify-content-start align-items-start">
-        <div class="jamil col-2 mr-2">
-          <img src="images/jamil-n-jaffer.png" alt="jamil photo">
-        </div>
-        <div class="col-9 jaffer font-weight-bolder">
-          <a href="#">The Best (Cyber) Defense Is a Good (Cyber) Offense</a>
-          <p>
-            <span>By</span>
-            Jamil N. Jaffer
-          </p>
-        </div>
-      </div>
-
-      <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-4">
-
-        <div class="c-vs text-center d-flex align-items-center justify-content-center">VS</div>
-        <hr>
-
-      </div>
-      <div class="row">
-        <div class="col-9">
-          <a href="#">The U.S. Needs a Cyber Strategy Designed for Defense</a>
-          <p>
-            <span>By</span>
-            <a href="#">Bonnie Kristian</a>
-          </p>
-        </div>
-        <div class="bonnie col-2">
-          <img src="images/bonnie-kristian.png" alt="bonnie photo">
-        </div>
-      </div>
-
-    </section>
-    <section class="container mb-4">
-      <h5>OPINION</h5>
-
-      <div class="row d-flex justify-content-start align-items-start">
-        <div class="jamil col-2 mr-2">
-          <img src="images/doug-gordon.png" alt="jamil photo">
-        </div>
-        <div class="col-9 jaffer font-weight-bolder">
-          <a href="#">The Political Minority Is Ruling America. But the Path to Reform Is Clear </a>
-          <div class="byline"> By
-            Doug Gordon</div>
-        </div>
-      </div>
-      <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
-
-        <div class=" text-center d-flex align-items-center justify-content-center"></div>
-        <hr>
-
-      </div>
-
-      <div class="row d-flex justify-content-start align-items-start">
-        <div class="jamil col-2 mr-2">
-          <img src="images/john-yoo-james-phillips.png" alt="jamil photo">
-        </div>
-        <div class="col-9 jaffer font-weight-bolder">
-          <a href="#"><a href="#">What Trump Should Look for in a Supreme Court Nominee</a>
-            <div class="byline"> By
-              John Yoo and James Phillips
+              <div class="card">
+                <img src="images/donald-trump.jpg" class="card-img-top" alt="image of donald-trump">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bolder">Trump Says Coronavirus 'Affects Virtually Nobody' at Ohio
+                    Rally </h5>
+                  <p class="card-text">At a campaign event on Monday, Joe Biden struck a different tone to the
+                    president, stating the number of dead cannot become "background noise."</p>
+                </div>
+              </div>
             </div>
-        </div>
-      </div>
-      <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
+      </div>  
+      <div class="feature mt-4 mb-2 py-3">
+            <h5 class="mb-1 ml-3 text-muted">FEATURED STORIES</h5>
+            <div class="storie-cards px-3">
+              <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
 
-        <div class=" text-center d-flex align-items-center justify-content-center"></div>
-        <hr>
+              <div class="card">
+                <img src="images/politics.jpg" class="card-img-top" alt="image of politics">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bolder">Pelosi Says Republicans Are Disrespecting Ginsburg</h5>
+                  <p class="card-text">The Speaker of the House, Nancy Pelosi, has accused Republicans of
+                    disrespecting the late Justice Ruth Bader Ginsburg in their rush to choose a successor.</p>
+                </div>
+              </div>
+            </div>
+        
+    
+         <div class="storie-cards px-3">
+            <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">U.S</p>
+            <div class="card">
+              <img src="images/us.png" class="card-img-top" alt="image of us-utah">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder">Utah Police Release Body Cam Footage of Shooting of Boy
+                  With Autism </h5>
+                <p class="card-text">Officers chased the boy, called Linden, and shot him after his mother called
+                  911 to get him mental health treatment in Salt Lake City, Utah.</p>
+              </div>
+            </div>
+          </div>  
 
-      </div>
+            <div class="storie-cards px-3">
+              <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">MY TURN</p>
+              <div class="card">
+                <img src="images/my-turn.jpg" class="card-img-top" alt="image of my-turn">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bolder">'Why I Gave up a Triathlon Medal at the Finish Line' </h5>
+                  <p class="card-text">Towards the finish line, James was third and I was fourth, and he was running
+                    extremely quickly. But unfortunately, he wasn't able to take the final turn before the finish
+                    line well, and he ran into the fences. At which point I passed him.</p>
+                </div>
+              </div>
+            </div>
 
-      <div class="row d-flex justify-content-start align-items-start">
-        <div class="jamil col-2 mr-2">
-          <img src="images/andrew-c-mccarthy (1).png" alt="andrew photo">
-        </div>
-        <div class="col-9 jaffer font-weight-bolder">
-          <a href="#">On Supreme Court Nominations, All that Counts is the Constitution</a>
-          <div class="byline"> By
-            Andrew C. McCarthy</div>
-        </div>
-      </div>
-      <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
+            <div class="storie-cards px-3">
+              <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
+              <div class="card">
+                <img src="images/lindsey-graham.jpg" class="card-img-top" alt="image of lindsey-graham">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bolder">Lindsey Graham Says Democrats Will Try to 'Destroy' SCOTUS
+                    Nominee</h5>
+                  <p class="card-text">Senator Lindsey Graham has suggested Democrats will do everything possible to
+                    keep the vacant Supreme Court seat open.</p>
+                </div>
+            </div>
+          </div>
+       </div>  
+    <section class="container feature mt-4 mb-2 py-3">
+          <h5>THE DEBATE</h5>
+          <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
 
-        <div class=" text-center d-flex align-items-center justify-content-center"></div>
-        <hr>
-      </div>
+            <div class=" text-center d-flex align-items-center justify-content-center"></div>
+            <hr>
 
-      <div class="row d-flex justify-content-start align-items-start">
-        <div class="jamil col-2 mr-2">
-          <img src="images/bonnie-glick (1).png" alt="jamil photo">
-        </div>
-        <div class="col-9 jaffer font-weight-bolder">
-          <a href="#">Why Does 5G matter in developing countries?</a>
-          <div class="byline"> By
-            Bonnie Glick</div>
-        </div>
-      </div>
-      <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
+          </div>
 
-        <div class=" text-center d-flex align-items-center justify-content-center"></div>
-        <hr>
-      </div>
+          <div class="row d-flex justify-content-start align-items-start">
+            <div class="jamil col-2 mr-2">
+              <img src="images/jamil-n-jaffer.png" alt="jamil photo">
+            </div>
+            <div class="col-9 font-weight-bolder">
+              <a class="jaffer" href="#">The Best (Cyber) Defense Is a Good (Cyber) Offense</a>
+              <p>
+                <span class="by">By</span>
+                Jamil N. Jaffer
+              </p>
+            </div>
+          </div>
 
-      <div class="row d-flex justify-content-start align-items-start">
-        <div class="jamil col-2 mr-2">
-          <img src="images/robert-reich (1).png" alt="jamil photo">
-        </div>
-        <div class="col-9 jaffer font-weight-bolder">
-          <a href="#">Ginsburg Fought for Principle. McConnell Is Fighting Only for Power</a>
-          <div class="byline"> By
-            Robert Reich</div>
-        </div>
-      </div>
+          <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-4">
+
+            <div class="c-vs text-center d-flex align-items-center justify-content-center">VS</div>
+            <hr>
+
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <a class="jaffer" href="#">The U.S. Needs a Cyber Strategy Designed for Defense</a>
+              <p>
+                <span  class="by">By</span>
+                <a class="jaffer" href="#">Bonnie Kristian</a>
+              </p>
+            </div>
+            <div class="bonnie col-2">
+              <img src="images/bonnie-kristian.png" alt="bonnie photo">
+            </div>
+          </div>
 
     </section>
-    <section class="container mt-4">
-      <div class="storie-cards px-3">
-        <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
-        <div class="card">
-          <img src="images/best-online-shops-2021.png" class="card-img-top" alt="image of best-online shop">
-          <div class="card-body">
-            <a href="#">Best Online Shops 2021</a>
-            <p>Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups.</p>
-          </div>
-        </div>
-      </div>
-      <div class="storie-cards px-3">
-        <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
-        <div class="card">
-          <img src="images/americas-best-physical-rehabilitation-centers-2020.png" class="card-img-top"
-            alt="image of best-online shop">
-          <div class="card-body">
-            <a href="#">America's Best Physical Rehabilitation Centers 2020</a>
-            <p>
-              Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the
-              country's&nbsp;Best Physical Rehabilitation Centers
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="storie-cards px-3">
-        <p class="ranking take survey text-center py-2 font-weight-bolder">TAKE THE SURVEY</p>
-        <div class="card">
-          <img src="images/brandspark.png" class="card-img-top" alt="image of brandspark">
-          <div class="card-body">
-            <a href="#">What Brands do You Trust the Most?</a>
-            <p>Tell us for a chance to win. 2020 Brandspark Most Trusted Awards. Voted by consumers like you.</p>
-          </div>
-        </div>
-      </div>
-      <div class="storie-cards px-3">
-        <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
-        <div class="card">
-          <img src="images/best-maternity-hospitals-2020.png" class="card-img-top"
-            alt="image of best-maternity-hospitals">
-          <div class="card-body">
-            <a href="#">Best Maternity Hospitals 2020</a>
-            <p>
-              The facilities cited by Newsweek are an elite group demonstrating excellence in maternity care. Check the
-              full list here
-            </p>
-          </div>
-        </div>
-      </div>
+    <section class="container mb-4 feature mt-4 mb-2 py-3">
+          <h5>OPINION</h5>
 
-    </section>
+          <div class="row d-flex justify-content-start align-items-start">
+            <div class="jamil col-2 mr-2">
+              <img src="images/doug-gordon.png" alt="jamil photo">
+            </div>
+            <div class="col-9 jaffer font-weight-bolder">
+              <a class="jaffer" href="#">The Political Minority Is Ruling America. But the Path to Reform Is Clear </a>
+              <div class="by"> By
+                Doug Gordon</div>
+            </div>
+          </div>
+          <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
+
+            <div class=" text-center d-flex align-items-center justify-content-center"></div>
+            <hr>
+
+          </div>
+
+          <div class="row d-flex justify-content-start align-items-start">
+            <div class="jamil col-2 mr-2">
+              <img src="images/john-yoo-james-phillips.png" alt="jamil photo">
+            </div>
+            <div class="col-9 jaffer font-weight-bolder">
+              <a class="jaffer" href="#">What Trump Should Look for in a Supreme Court Nominee</a>
+                <div class="by"> By
+                  John Yoo and James Phillips
+                </div>
+            </div>
+          </div>
+          <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
+
+            <div class=" text-center d-flex align-items-center justify-content-center"></div>
+            <hr>
+
+          </div>
+
+          <div class="row d-flex justify-content-start align-items-start">
+            <div class="jamil col-2 mr-2">
+              <img src="images/andrew-c-mccarthy (1).png" alt="andrew photo">
+            </div>
+            <div class="col-9 jaffer font-weight-bolder">
+              <a class="jaffer" href="#">On Supreme Court Nominations, All that Counts is the Constitution</a>
+              <div class="by"> By
+                Andrew C. McCarthy</div>
+            </div>
+          </div>
+          <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
+
+            <div class=" text-center d-flex align-items-center justify-content-center"></div>
+            <hr>
+          </div>
+
+          <div class="row d-flex justify-content-start align-items-start">
+            <div class="jamil col-2 mr-2">
+              <img src="images/bonnie-glick (1).png" alt="jamil photo">
+            </div>
+            <div class="col-9 jaffer font-weight-bolder">
+              <a class="jaffer" href="#">Why Does 5G matter in developing countries?</a>
+              <div class="by"> By
+                Bonnie Glick</div>
+            </div>
+          </div>
+          <div class="deco d-flex flex-column align-items-center justify-content-center mt-2 mb-3">
+
+            <div class=" text-center d-flex align-items-center justify-content-center"></div>
+            <hr>
+          </div>
+
+          <div class="row d-flex justify-content-start align-items-start">
+            <div class="jamil col-2 mr-2">
+              <img src="images/robert-reich (1).png" alt="jamil photo">
+            </div>
+            <div class="col-9 jaffer font-weight-bolder">
+              <a class="jaffer" href="#">Ginsburg Fought for Principle. McConnell Is Fighting Only for Power</a>
+              <div class="by"> By
+                Robert Reich</div>
+            </div>
+          </div>
+
+      </section>
+      <section class="container feature mt-4 mb-2 py-3">
+          <div class="storie-cards">
+            <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
+            <div class="card">
+              <img src="images/best.png" class="card-img-top" alt="image of best-online shop">
+              <div class="card-body">
+                <a href="#">Best Online Shops 2021</a>
+                <p>Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups.</p>
+              </div>
+            </div>
+          </div>
+          <div class="storie-cards">
+            <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
+            <div class="card">
+              <img src="images/americas-best-physical-rehabilitation-centers-2020.png" class="card-img-top"
+                alt="image of best-online shop">
+              <div class="card-body">
+                <a href="#">America's Best Physical Rehabilitation Centers 2020</a>
+                <p>
+                  Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the
+                  country's&nbsp;Best Physical Rehabilitation Centers
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="storie-cards">
+            <p class="ranking take survey text-center py-2 font-weight-bolder">TAKE THE SURVEY</p>
+            <div class="card">
+              <img src="images/brandspark.png" class="card-img-top" alt="image of brandspark">
+              <div class="card-body">
+                <a href="#">What Brands do You Trust the Most?</a>
+                <p>Tell us for a chance to win. 2020 Brandspark Most Trusted Awards. Voted by consumers like you.</p>
+              </div>
+            </div>
+          </div>
+          <div class="storie-cards">
+            <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
+            <div class="card">
+              <img src="images/best-maternity-hospitals-2020.png" class="card-img-top"
+                alt="image of best-maternity-hospitals">
+              <div class="card-body">
+                <a href="#">Best Maternity Hospitals 2020</a>
+                <p>
+                  The facilities cited by Newsweek are an elite group demonstrating excellence in maternity care. Check the
+                  full list here
+                </p>
+              </div>
+            </div>
+          </div>
+
+     </section>
 
     <section>
       <div class="container more-stories">
@@ -1226,7 +1232,7 @@
         </div>
       </div>
   </footer>
-
+</div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
