@@ -101,7 +101,7 @@
 }
 
 form {
-    background-color: #F4F5F6;
+    background-color: #9ca6b1;
     width: 360px;
     height: 200px;
     margin: 0 auto;
@@ -137,4 +137,36 @@ form {
     background-color: #e3e4e6;
     top: 34.3vh;
     padding: 0 15px 0 15px;
+}
+
+/*Subscribe section*/
+
+.vaccine {
+  background-color: #F4F5F6;
+}
+
+.subscribe-h6 {
+  color: #f00;
+  font-weight: bolder;
+}
+
+.subscribe-icon {
+  /*border: 1px solid #fff;*/
+  display: block;
+  margin-top: 13px;
+  height: 5vh;
+  font-size: 20px;
+  width: 5vw;
+}
+
+#news {
+  background-color: #fff;
+  border: 1px solid #9ca6b1;
+  width: 365px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.quarter {
+  font-size: 15px;
 }
