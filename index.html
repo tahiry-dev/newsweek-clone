@@ -15,25 +15,31 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-light  bg-danger justify-content-between mb-3">
+    <nav class="navbar d-flex justify-content-between">
       <div class="d-none d-lg-block">
         <p><i class='fas'>&#xf73d;</i> 25&deg; Abeokuta South, NG <i class='fas'>&#xf105;</i></p>
         <p>Mon, Sep 21, 2020</p>
       </div>
+      <!-- <div class="d-flex align-items-center"> -->
       <div><a class="navbar-brand text-white font-weight-bolder" href="#">Newsweek</a></div>
-      <div class="navlink-right d-flex">
+      <div class="nav-right d-flex align-items-center">
         <a class="nav-link" href="#"><i class="fas fa-portrait fa-2x align-self-center d-md-none"></i></a>
         <a href="#" class="nav-link text-white align-self-center d-none d-md-flex">LOGIN</a>
+        <div class="mt-3">
+          <button class="btn d-flex" type="button">Subscribe
+            <p><i class='fas ml-1'>&#xf105;</i></p>
+          </button>
+        </div>
 
-        <div><button class="btn btn-warning rounded-pill mt-2 mr-2" type="button">Subscribe <i
-              class='fas'>&#xf105;</i></button></div>
         <nav class="navbar d-lg-none">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myMenu"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="bars navbar-toggler-icon"></span>
           </button>
         </nav>
+
       </div>
+      <!-- </div> -->
     </nav>
     <div class="center-menu nav justify-content-start d-none d-lg-block">
       <ul class="nav">
@@ -1208,37 +1214,84 @@
     </section>
 
     <section class="container mb-5">
-       <h6 class="subscribe-h6">SUBSCRIBE</h6>
+      <h6 class="subscribe-h6">SUBSCRIBE</h6>
       <div class="vaccine d-flex flex-column align-items-center">
-        <img class="mt-4" src="images/vaccines.jpg" alt="image of vaccine"/>
+        <img class="mt-4" src="images/vaccines.jpg" alt="image of vaccine" />
         <div class="mt-5">
-          <p class="h6 font-weight-bolder text-center">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+          <p class="h6 font-weight-bolder text-center">In-depth Stories You Don't See Elsewhere About Topics You Want to
+            Read!</p>
           <p class="text-center">All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
         </div>
-        <div class="d-flex align-items-center justify-content-center"><button class="btn btn-danger" type="button">Subscribe <i
-          class='fas subscribe-icon'>&#xf105;</i></button>
+        <div class="d-flex align-items-center justify-content-center"><button class="btn btn-danger"
+            type="button">Subscribe <i class='fas subscribe-icon'>&#xf105;</i></button>
         </div>
       </div>
     </section>
-     <section class="newsletter container">
-       <h6 class="subscribe-h6">NEWSLETTER</h6>
-        <form id="news" class=" p-4 mt-4 mb-4">
+    <section class="newsletter container">
+      <h6 class="subscribe-h6">NEWSLETTER</h6>
+      <form id="news" class=" p-4 mt-4 mb-4">
 
-          <div>
-            <p class="h6 font-weight-bolder text-center">The Starting 5</p>
-            <p class="text-center quarter">See why nearly a quarter of a million subscribers begin their day with the Starting 5</p>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Email address">
-          </div>
+        <div>
+          <p class="h6 font-weight-bolder text-center">The Starting 5</p>
+          <p class="text-center quarter">See why nearly a quarter of a million subscribers begin their day with the
+            Starting 5</p>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Email address">
+        </div>
 
-          <button class="btn form-control btn-danger">FREE SIGN UP <i class='fas'>&#xf105;</i></button>
+        <button class="btn form-control btn-danger">FREE SIGN UP <i class='fas'>&#xf105;</i></button>
 
-        </form>
+      </form>
     </section>
-
   </main>
+  <footer>
+    <div class="container">
+      <div class="footer-up">
+        <h1 class="display-5 text-danger font-weight-bolder">Newsweek</h1>
+        <p>&COPY; 2020 NEWSWEEK</p>
+        <div class="social-share-icons">
+          <i class="fab fa-facebook-square"></i>
+          <i class='fab'>&#xf099;</i>
+          <i class="fab fa-instagram"></i>
+          <i class='fab'>&#xf173;</i>
+          <i class='fab'>&#xf0e1;</i>
+        </div>
+      </div>
+      <hr>
+      <div class="footer-down">
+        <div class="footer-menu">
+          <div class="editions d-flex">
+            <div>
+              Editions:
+            </div>
+            <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link" href="#">U.S. Edition</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">日本</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Pakistan</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Polska</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">România</a></li>
+            </ul>
+          </div>
+          <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">About US</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Corrections</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact US</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Editorial Guidelines</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Advertise</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Copyright</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Terms & Conditions</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Cookie Policy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Terms of sales</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Archive</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Announcements</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Consents Preferences</a></li>
+          </ul>
+        </div>
+      </div>
+  </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

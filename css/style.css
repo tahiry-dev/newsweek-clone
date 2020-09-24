@@ -16,10 +16,28 @@
   position: absolute;
 }
 
+/* --- header--- */
+
+.navbar {
+  background-color: #f00;
+}
+
+.bars {
+  border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
 .bonnie img,
 .jamil img {
-    /*border: 1px solid purple;*/
-    width: 16vw;
+  width: 16vw;
     
 }
 
