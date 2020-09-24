@@ -22,18 +22,22 @@
   background-color: #f00;
 }
 
-.bars {
-  border: 1px solid white;
+.fa-portrait,
+.fa-bars {
+  color: #fff;
 }
 
+.right-arrow {
+  margin-top: 3.45px;
+}
 
-
-
-
-
-
-
-
+.subscribe-link {
+  height: 4.8vh;
+  background-color: yellow;
+  border-radius: 20px;
+  padding: 2px 6px;
+  color: #000;
+}
 
 .bonnie img,
 .jamil img {
@@ -169,7 +173,6 @@ form {
 }
 
 .subscribe-icon {
-  /*border: 1px solid #fff;*/
   display: block;
   margin-top: 13px;
   height: 5vh;
@@ -187,4 +190,17 @@ form {
 
 .quarter {
   font-size: 15px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .brand-text {
+    font-size: 5em;
+  }
+
+  .subscribe-link {
+    margin-right: 150px;
+
+  }
+  
 }
