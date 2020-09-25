@@ -96,6 +96,16 @@ a {
   background-color: #fff;
 }
 
+.feature-container,
+.single-card {
+  background-color: #fff;
+}
+
+.feature-card-img-top {
+  max-width: 100%;
+  height: 500px;
+}
+
 .feature-title {
   color: rgba(3,3,3,.4);
   font: bold 16px/16px "Roboto Condensed",sans-serif;
@@ -330,6 +340,7 @@ form {
 .article-images {
   margin-left: -15px;
 }
+
 
 /* ---footer--- */
 
