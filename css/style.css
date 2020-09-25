@@ -6,17 +6,14 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f4f5f6;
-    color: #333;
-    font-size: 13px;
-    line-height: 18px;
-    font-family: Arial,Helvetica,sans-serif;
-    overflow-x: hidden
-}
-
 .entire-section {
+  min-width: 360px;
   background-color: #f4f5f6;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial,Helvetica,sans-serif;
+  padding: 10px;
 }
 
 /* ---Global CSS--- */
@@ -99,6 +96,11 @@ a {
   background-color: #fff;
 }
 
+.feature-title {
+  color: rgba(3,3,3,.4);
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+}
+
 .deb hr {
     border-width: 1px solid black;
     position: absolute;
@@ -178,12 +180,18 @@ a {
 /* ---Travel and culture--- */
 
 .culture-badge {
-  background-color: #e3e4e6;
-  top: 48.5vh;
+  background-color: #c2d4d7;
+  top: 57vh;
   width: auto;
 }
 
 /* ---Sponsored-insight--- */
+
+.sponsored-title {
+  color: #111;
+  font-size: 17px;
+  font-weight: bolder;
+}
 
 .sponsored-insight {
     width: auto;
@@ -205,6 +213,16 @@ form {
 }
 
 /* ---Magazine-section--- */
+
+.see-all {
+  color: #111;
+}
+
+.magazine-description {
+  color: rgb(7, 6, 6);
+  font-size: 16px;
+  line-height: 0.1;
+}
 
 .cover,
 .focus {
@@ -230,11 +248,22 @@ form {
     width: 25px;
 }
 
+.picks {
+  top: 0.6vh;
+  left: 25vw;
+}
+
+.picks-text {
+  top: 1.5vh;
+  left: 33vw;
+}
+
 .editors-position {
-    width: auto;
-    background-color: #e3e4e6;
-    top: 34.3vh;
-    padding: 0 15px 0 15px;
+  width: auto;
+  background-color: #e3e4e6;
+  top: 34.3vh;
+  padding: 0 15px 0 15px;
+  color: rgb(245, 0, 0);
 }
 
 .see-all {
@@ -250,6 +279,20 @@ form {
 }
 
 /*Subscribe section*/
+
+.subscribe {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.subscribe-button {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 0 6px 6px 10px;
+  border-radius: 5px;
+}
 
 .vaccine {
   background-color: #F4F5F6;
@@ -268,16 +311,48 @@ form {
   width: 5vw;
 }
 
-#news {
-  background-color: #fff;
-  border: 1px solid #9ca6b1;
-  width: 365px;
-  height: 220px;
-  margin: 0 auto;
+.newsletter {
+  background-color: white;
 }
 
-.quarter {
-  font-size: 15px;
+#news {
+  background-color: white;
+  width: 100%;
+}
+
+#news-heading {
+  font-size: 25px;
+  color: #000;
+}
+
+/* ---article--- */
+
+.article-images {
+  margin-left: -15px;
+}
+
+/* ---footer--- */
+
+footer {
+  background-color: white;  
+}
+
+footer h1 {
+  color: red;
+}
+
+.editions-text {
+  color: #666;
+  font-size: 18px;
+}
+
+.nav-up a {
+  font-size: 12px;
+}
+
+.nav-up a:hover,
+.nav-down a:hover {
+  color: #000;
 }
 
 
