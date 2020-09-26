@@ -29,8 +29,8 @@
         <div class="nav-right d-flex align-items-center">
           <a href="#"><i class="fas fa-portrait fa-lg align-self-center d-md-none"></i></a>
           <a href="#" class="text-white align-self-center d-none d-md-flex">LOGIN</a>
-          <a href="#" class="d-flex subscribe-link mr-2 ml-2">Subscribe
-            <p><i class='right-arrow fas ml-1'>&#xf105;</i></p></a>
+          <a href="#" class="d-flex align-items-center subscribe-link mr-2 ml-2 font-weight-bolder">Subscribe
+            <p><i class='d-flex align-items-end right-arrow fas ml-1'>&#xf105;</i></p></a>
           <i class="fas fa-bars d-lg-none mb-1"></i>
         </div>
       </nav>
@@ -102,10 +102,9 @@
           <div class="feature mb-2 mt-4 col-md-7 order-2">
             <h5 class="ml-3 mt-1 mt-3 feature-title">TOP STORY</h5>
             <div class="storie-cards">
-              <p class="ranking story text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
-
-              <div class="card">
-                <img src="images/donald-trump.jpg" class="card-img-top" alt="image of donald-trump">
+              <div class="card parent-element">
+                <p class="ranking story text-center py-2 font-weight-bolder text-danger bg-light child-element">POLITICS</p>
+                <img src="images/donald-trump.jpg" class="card-img-top img-fluid" alt="image of donald-trump">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bolder">Trump Says Coronavirus 'Affects Virtually Nobody' at Ohio
                     Rally </h5>
@@ -118,9 +117,9 @@
           <div class="feature mt-4 mb-2 py-3 col-md-5">
             <h5 class="mb-1 ml-3 feature-title">FEATURED STORIES</h5>
             <div class="storie-cards">
-              <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
-
-              <div class="card">
+             
+              <div class="card parent-element">
+                <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light child-element">POLITICS</p>
                 <img src="images/politics.jpg" class="card-img-top" alt="image of politics">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bolder">Pelosi Says Republicans Are Disrespecting Ginsburg</h5>
@@ -136,8 +135,9 @@
       <div class="container feature-container mt-3 mb-3 p-3">
         <div class="row">
           <div class="storie-cards px-3 col-md-7 order-2">
-            <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">U.S</p>
-            <div class="card">
+            
+            <div class="card parent-element">
+              <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light child-element">U.S</p>
               <img src="images/us.png" class="card-img-top" alt="image of us-utah">
               <div class="card-body">
                 <h5 class="card-title font-weight-bolder">Utah Police Release Body Cam Footage of Shooting of Boy
@@ -148,9 +148,9 @@
             </div>
           </div>
 
-          <div class="storie-cards px-3 col-md-5">
-            <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">MY TURN</p>
-            <div class="card">
+          <div class="storie-cards px-3 col-md-5">  
+            <div class="card parent-element">
+              <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light child-element">MY TURN</p>
               <img src="images/my-turn.jpg" class="card-img-top" alt="image of my-turn">
               <div class="card-body">
                 <h5 class="card-title font-weight-bolder">'Why I Gave up a Triathlon Medal at the Finish Line' </h5>
@@ -166,8 +166,8 @@
         <div class="row">
           <div class="col-md-6">
             <div class="storie-cards px-3">
-              <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light">POLITICS</p>
-              <div class="card">
+              <div class="card parent-element">
+                <p class="ranking text-center py-2 font-weight-bolder text-danger bg-light child-element">POLITICS</p>
                 <img src="images/lindsey-graham.jpg" class="card-img-top" alt="image of lindsey-graham">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bolder">Lindsey Graham Says Democrats Will Try to 'Destroy' SCOTUS
@@ -303,8 +303,8 @@
   </section>
   <section class="container feature mt-4 mb-2 py-3">
     <div class="storie-cards">
-      <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
-      <div class="card">
+      <div class="card parent-element">
+        <p class="ranking text-center py-2 font-weight-bolder child-element">RANKINGS</p>
         <img src="images/best.png" class="feature-card-img-top" alt="image of best-online shop">
         <div class="card-body">
           <a class="jaffer" href="#">Best Online Shops 2021</a>
@@ -314,8 +314,8 @@
       </div>
     </div>
     <div class="storie-cards">
-      <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
-      <div class="card">
+      <div class="card parent-element">
+        <p class="ranking physical text-center py-2 font-weight-bolder child-element">RANKINGS</p>
         <img src="images/americas-best-physical-rehabilitation-centers-2020.png" class="feature-card-img-top"
           alt="image of best-online shop">
         <div class="card-body">
@@ -328,8 +328,8 @@
       </div>
     </div>
     <div class="storie-cards">
-      <p class="ranking take survey text-center py-2 font-weight-bolder">TAKE THE SURVEY</p>
-      <div class="card">
+      <div class="card parent-element">
+        <p class="ranking take survey py-3 text-center d-flex align-items-center font-weight-bolder child-element">TAKE THE SURVEY</p>
         <img src="images/brandspark.png" class="feature-card-img-top" alt="image of brandspark">
         <div class="card-body">
           <a class="jaffer" href="#">What Brands do You Trust the Most?</a>
@@ -339,8 +339,8 @@
       </div>
     </div>
     <div class="storie-cards">
-      <p class="ranking text-center py-2 font-weight-bolder">RANKINGS</p>
-      <div class="card">
+      <div class="card parent-element">
+        <p class="ranking best-maternity text-center py-2 font-weight-bolder child-element">RANKINGS</p>
         <img src="images/best-maternity-hospitals-2020.png" class="feature-card-img-top"
           alt="image of best-maternity-hospitals">
         <div class="card-body">
@@ -355,7 +355,7 @@
     </div>
 
   </section>
-  <div class="container">
+  <div class="container"> 
     <div class="row">
       <div class="col-md-7">
         <section class="feature mt-4 mb-2">
@@ -364,15 +364,15 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/covid-memorial-project.jpg" alt="covid memorial images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">20,000 American Flags Placed at
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">20,000 American Flags Placed at
                       Washington
                       Monument to Honor
                       COVID Victims</a></h5>
-                  <p class="star ml-3">The flags honor the more than 200,000 people in the U.S. who have lost their
+                  <p class="star">The flags honor the more than 200,000 people in the U.S. who have lost their
                     lives
                     after
                     contracting COVID-19.</p>
@@ -383,14 +383,14 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/supreme-court.jpg" alt="supreme court images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">249% of Americans Oppose
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">249% of Americans Oppose
                       McConnell's Decision to Vote on SCOTUS Nominee</a>
                   </h5>
-                  <p class="star ml-3">In a statement issued on Monday, McConnell said that "President Trump's nominee
+                  <p class="star">In a statement issued on Monday, McConnell said that "President Trump's nominee
                     for
                     this
                     vacancy will receive a vote on the floor of the Senate."</p>
@@ -401,16 +401,16 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/trump-coronavirus-task-force.jpg" alt="trump covid taskforce images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">Coronavirus Task Force Shifted From
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">Coronavirus Task Force Shifted From
                       Science
                       to
                       Trump's
                       Agenda: Pence Aide</a></h5>
-                  <p class="star ml-3">"Suddenly, the course of what we were doing had changed, because that wasn't
+                  <p class="star">"Suddenly, the course of what we were doing had changed, because that wasn't
                     really
                     what
                     the president wanted," Olivia Troye said.</p>
@@ -421,14 +421,14 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/bobcat-fire.jpg" alt="bobcat-fire images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">Five of the Seven Largest Wildfires in
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">Five of the Seven Largest Wildfires in
                       Calif.
                       History Are Currently Burning</a></h5>
-                  <p class="star ml-3">Many experts are pointing to climate change as the biggest driving force behind
+                  <p class="star">Many experts are pointing to climate change as the biggest driving force behind
                     this
                     sharp increase in the number of wildfires.</p>
                 </div>
@@ -438,14 +438,14 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/william-barr.jpg" alt="william-barr images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">20K Christians Petition Catholic Group to
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">20K Christians Petition Catholic Group to
                       Cancel
                       Award for William Barr</a></h5>
-                  <p class="star ml-3">Reverend Nathan Empsall described the award for the attorney general as "a
+                  <p class="star">Reverend Nathan Empsall described the award for the attorney general as "a
                     political
                     maneuver simply intended to further hijack religion for Donald Trump's reelection."</p>
                 </div>
@@ -455,13 +455,13 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/pete-hoekstra.jpg" alt="pete-hoekstra images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">U.S. Ambassador To Netherlands Accused of
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">U.S. Ambassador To Netherlands Accused of
                       'Interference' With Elections</a></h5>
-                  <p class="star ml-3">Questions have been raised about why Pete Hoekstra was hosting the event along
+                  <p class="star">Questions have been raised about why Pete Hoekstra was hosting the event along
                     with
                     the
                     Forum for Democracy party at the U.S. Embassy in The Hague.</p>
@@ -472,15 +472,15 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/steven-mnuchin.jpg" alt="steven-mnuchin images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">Trump Supports Granting More Small
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">Trump Supports Granting More Small
                       Business
                       Loan
                       Money Immediately: Mnuchin</a></h5>
-                  <p class="star ml-3">Treasury Secretary Steven Mnuchin said he was ready to resume stimulus
+                  <p class="star">Treasury Secretary Steven Mnuchin said he was ready to resume stimulus
                     negotiations
                     and
                     that the president is willing to support stand-alone legislation for small businesses.
@@ -492,15 +492,15 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/vice-president-joe-biden-hermantown-minnesota.jpg" alt="joe Biden images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">The Uneasy Alliance in the Democratic
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">The Uneasy Alliance in the Democratic
                       Party
                       Is
                       Breaking Over RBG's Death</a></h5>
-                  <p class="star ml-3">Arguments about packing the Supreme Court are laying bare the divisions within
+                  <p class="star">Arguments about packing the Supreme Court are laying bare the divisions within
                     the
                     Democratic Party following the death of Ruth Bader Ginsburg.</p>
                 </div>
@@ -510,16 +510,16 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/iowa-biden-supporters-trump-poll.jpg" alt="iowa-biden-supporters-trump-poll images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">Biden and Trump Tied in Key State of
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">Biden and Trump Tied in Key State of
                       Iowa,
                       Gender
                       Divide
                       Widest Ever</a></h5>
-                  <p class="star ml-3">Trump holds a 21 percent advantage over Biden among Iowa men, 57 to 36 percent.
+                  <p class="star">Trump holds a 21 percent advantage over Biden among Iowa men, 57 to 36 percent.
                     But
                     Biden holds a 20 percent lead over Trump among women voters, 57 to 37 percent.</p>
                 </div>
@@ -529,15 +529,15 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/coronavirus-kenosha-wisconsin-teachers-absence-surge.jpg"
                     alt="coronavirus-kenosha-wisconsin-teachers-absence-surge images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">Kenosha, Wisconsin, to Investigate Sudden
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">Kenosha, Wisconsin, to Investigate Sudden
                       'Surge'
                       in Teacher Absences</a></h5>
-                  <p class="star ml-3">Some saw the spike in absences that closed seven schools as a coordinated effort
+                  <p class="star">Some saw the spike in absences that closed seven schools as a coordinated effort
                     by
                     teachers. The union said it showed how "dangerous and untenable" in-person learning is
                     in Wisconsin.</p>
@@ -548,15 +548,15 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/traffic-boston.jpg" alt="traffic-boston images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">Numerous 'Trump 2020' Markings
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">Numerous 'Trump 2020' Markings
                       Mysteriously
                       Appear Across
                       State Highway</a></h5>
-                  <p class="star ml-3">Aerial footage showed the markings across separate six locations as transport
+                  <p class="star">Aerial footage showed the markings across separate six locations as transport
                     officials
                     say they are investigating the unauthorized pro-Trump messages.</p>
                 </div>
@@ -566,14 +566,14 @@
             <div class="more-story">
               <hr>
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <img src="images/antifa.jpg" alt="antifa images">
                 </div>
-                <div class="col-9">
-                  <h5 class="font-weight-bolder ml-3"><a class="flag" href="#">'Antifa Hunting Permit' Stuck to Door of
+                <div class="col-8">
+                  <h5 class="font-weight-bolder"><a class="flag" href="#">'Antifa Hunting Permit' Stuck to Door of
                       North
                       Carolina Store</a></h5>
-                  <p class="star ml-3">Business owner believes her store was targeted because she flies flags showing
+                  <p class="star">Business owner believes her store was targeted because she flies flags showing
                     support
                     for Black Lives Matter and the LGBTQ community.</p>
                 </div>
@@ -898,7 +898,7 @@
         <div class="col-md-6">
           <div class="editor-cards">
             <div class="card parent-element">
-              <p class="editors-position text-center py-1 font-weight-bolder child-element">POLITICS</p>
+              <p class="editors-position joe-bidden text-center py-1 font-weight-bolder child-element">POLITICS</p>
               <img src="images/vice-president-joe-biden-hermantown-minnesota.jpg" class="card-img-top"
                 alt="image of vice president">
               <div class="card-body">
@@ -1064,13 +1064,13 @@
 
     <hr>
 
-    <div class="us container feature">
-      <h5 class="us-bottom font-weight-bolder">U.S</h5>
+    <div class="feature">
       <div class="container">
+        <h5 class="us-bottom font-weight-bolder">U.S</h5>
         <div class="row">
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/masked-singer.jpg" class="figure-img img-fluid rounded" alt="masked-singer images">
+              <img src="images/masked-singer.jpg" class="figure-img img-fluid" alt="masked-singer images">
               <figcaption class="figure-caption"><a class="flag" href="#">Why 'The Masked Singer' Audience Wasn't
                   Wearing
                   Face
@@ -1080,7 +1080,7 @@
           </div>
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/afghanistan.jpg" class="figure-img img-fluid rounded" alt="afghanistan image">
+              <img src="images/afghanistan.jpg" class="figure-img img-fluid" alt="afghanistan image">
               <figcaption class="figure-caption"><a class="flag" href="#">Widow Sues VA Over Nurse Alleging She Stole
                   Stepchildren's
                   Inheritance</a>
@@ -1131,13 +1131,13 @@
 
 
 
-    <div class="us container feature py-1">
-      <a class="h5 us-bottom font-weight-bolder" href="#">World</a>
+    <div class="feature">
       <div class="container">
+        <a class="h5 us-bottom font-weight-bolder" href="#">World</a>
         <div class="row">
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/whale.jpg" class="figure-img img-fluid rounded mt-2" alt="Whale images">
+              <img src="images/whale.jpg" class="figure-img img-fluid mt-2" alt="Whale images">
               <figcaption class="figure-caption"><a class="flag" href="#">Weak Stranded Whales in Australia to Be
                   Euthanized, Hundreds Already Dead</a>
               </figcaption>
@@ -1145,7 +1145,7 @@
           </div>
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/snakes-carpet.jpg" class="figure-img img-fluid rounded" alt="snakes-carpet image">
+              <img src="images/snakes-carpet.jpg" class="figure-img img-fluid" alt="snakes-carpet image">
               <figcaption class="figure-caption"><a class="flag" href="#">Python Climbs Through Bathroom Window, Hides
                   in
                   Toilet</a>
@@ -1193,13 +1193,13 @@
     <hr>
 
 
-    <div class="Business container">
-      <h5 class="us-bottom font-weight-bolder">Business</h5>
+    <div class="Business">
       <div class="container">
+        <h5 class="us-bottom font-weight-bolder">Business</h5>
         <div class="row">
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/jerome-powell.jpg" class="figure-img img-fluid rounded" alt="jerome-powell images">
+              <img src="images/jerome-powell.jpg" class="figure-img img-fluid" alt="jerome-powell images">
               <figcaption class="figure-caption"><a class="flag" href="#">As Election Looms, Poll Finds Fewer Americans
                   Think
                   Economy in Poor Shape</a>
@@ -1208,7 +1208,7 @@
           </div>
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/joe-biden.jpg" class="figure-img img-fluid rounded" alt="joe-biden images">
+              <img src="images/joe-biden.jpg" class="figure-img img-fluid" alt="joe-biden images">
               <figcaption class="figure-caption"><a class="flag" href="#">Economists Say Joe Biden's Tax Plans Don't Add
                   Up</a>
               </figcaption>
@@ -1260,13 +1260,13 @@
     <hr>
 
 
-    <div class="Tech-science container">
-      <h5 class="us-bottom font-weight-bolder">Tech & Science</h5>
+    <div class="Tech-science">
       <div class="container">
+        <h5 class="us-bottom font-weight-bolder">Tech & Science</h5>
         <div class="row">
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/vari-electric.jpg" class="figure-img img-fluid rounded" alt="vari-electric images">
+              <img src="images/vari-electric.jpg" class="figure-img img-fluid" alt="vari-electric images">
               <figcaption class="figure-caption"><a class="flag" href="#">Vari Electric Standing Desk Is a Must-Have for
                   Your
                   Home Office</a>
@@ -1275,7 +1275,7 @@
           </div>
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/siri-apple-iphone.jpg" class="figure-img img-fluid rounded"
+              <img src="images/siri-apple-iphone.jpg" class="figure-img img-fluid"
                 alt="siri-apple-iphone images">
               <figcaption class="figure-caption"><a class="flag" href="#">Siri Offers Directions to Police When Asked
                   'Where
@@ -1322,13 +1322,13 @@
     </div>
     <hr>
 
-    <div class="culture container">
-      <h5 class="us-bottom font-weight-bolder">Culture</h5>
+    <div class="culture">
       <div class="container">
+        <h5 class="us-bottom font-weight-bolder">Culture</h5>
         <div class="row">
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/masked-singer-season-4-.jpg" class="figure-img img-fluid rounded"
+              <img src="images/masked-singer-season-4-.jpg" class="figure-img img-fluid"
                 alt="masked-singer-season-4- images">
               <figcaption class="figure-caption"><a class="flag" href="#">Vari Electric Standing Desk Is a Must-Have for
                   Your
@@ -1338,7 +1338,7 @@
           </div>
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/ibram-x-kendi.jpg" class="figure-img img-fluid rounded" alt="ibram-x-kendi images">
+              <img src="images/ibram-x-kendi.jpg" class="figure-img img-fluid" alt="ibram-x-kendi images">
               <figcaption class="figure-caption"><a class="flag" href="#">'How to Be an Antiracist' Author Condemns
                   Charges in
                   Breonna Taylor Case</a>
@@ -1382,13 +1382,13 @@
       </div>
     </div>
     <hr>
-    <div class="sports container">
-      <h5 class="us-bottom font-weight-bolder">Sports</h5>
+    <div class="sports">
       <div class="container">
+        <h5 class="us-bottom font-weight-bolder">Sports</h5>
         <div class="row">
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/ole-miss-football.jpg" class="figure-img img-fluid rounded"
+              <img src="images/ole-miss-football.jpg" class="figure-img img-fluid"
                 alt="ole-miss-football images">
               <figcaption class="figure-caption"><a class="flag" href="#">Vari Electric Standing Desk Is a Must-Have for
                   Your
@@ -1398,7 +1398,7 @@
           </div>
           <div class="col-md-3">
             <figure class="figure">
-              <img src="images/gale-sayers.jpg" class="figure-img img-fluid rounded" alt="gale-sayers images">
+              <img src="images/gale-sayers.jpg" class="figure-img img-fluid" alt="gale-sayers images">
               <figcaption class="figure-caption"><a class="flag" href="#">'How to Be an Antiracist' Author Condemns
                   Charges in
                   Breonna Taylor Case</a>
@@ -1474,13 +1474,13 @@
 
     </div>
   </section>
-  <section class="newsletter container mt-4 pt-4 mb-4">
-    <h6 class="subscribe-h6">NEWSLETTER</h6>
+  <section class="newsletter mt-4 pt-4 mb-4">
     <div class="container">
+      <h6 class="subscribe-h6">NEWSLETTER</h6>
       <div class="row">
         <div class="col-md-6">
           <figure class="figure">
-            <img src="images/starting5-homepage.png" class="figure-img img-fluid rounded"
+            <img src="images/starting5-homepage.png" class="figure-img img-fluid"
               alt="starting5-homepage images">
           </figure>
         </div>
@@ -1523,11 +1523,11 @@
       <hr>
       <div class="footer-down">
         <div class="footer-menu">
-          <div class="editions d-flex">
+          <div class="editions d-flex align-items-end">
             <div class="editions-text font-weight-bolder align-self-start mt-2">
               Editions:
             </div>
-            <ul class="nav nav-up">
+            <ul class="nav nav-up mt-1">
               <li class="nav-item"><a href="#" class="nav-link" href="#">U.S. Edition</a></li>
               <li class="nav-item"><a href="#" class="nav-link">日本</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Pakistan</a></li>
@@ -1535,7 +1535,7 @@
               <li class="nav-item"><a href="#" class="nav-link">România</a></li>
             </ul>
           </div>
-          <ul class="nav nav-down">
+          <ul class="nav nav-down text-muted">
             <li class="nav-item"><a href="#" class="nav-link">About US</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Corrections</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contact US</a></li>
