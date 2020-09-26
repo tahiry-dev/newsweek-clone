@@ -209,16 +209,16 @@ a {
     padding: 0 15px 0 15px;
 }
 
-.icon-n img {
+/*.icon-n img {
     width: 40px;
-}
+}*/
 
-form {
+/*form {
     background-color: #9ca6b1;
     width: 360px;
     height: 200px;
     margin: 0 auto;
-}
+}*/
 
 /* ---Magazine-section--- */
 
@@ -399,8 +399,37 @@ footer h1 {
   }
 
   main {
-    margin-top: 120px;
+    margin-top: 128px;
   }
+
+.bonnie img,
+.jamil img {
+  width: 70px;   
+}
+
+form {
+    background-color: #F4F5F6;
+    border: 1px solid  #F4F5F6;
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.icon-n img {
+    width: 30px;
+}
+
+#free-sign-up {
+  background-color: #f00;
+  color: #fff;
+  border: 1px solid red;
+  font-size: 13px;
+}
+
+.the-magazine {
+  width: 1000px;
+}
+
   
 }
 
