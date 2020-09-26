@@ -391,6 +391,15 @@ footer h1 {
 @media screen and (min-width: 992px) {
   .brand-text {
     font-size: 4em;
+    margin-top: 20px;
+  }
+
+  header {
+    background-color: #fff;
+  }
+
+  main {
+    margin-top: 120px;
   }
   
 }
