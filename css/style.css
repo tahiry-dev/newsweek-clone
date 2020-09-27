@@ -258,9 +258,9 @@ a {
   bottom: 0;
 }
 
-.icon-editor img {
+/*.icon-editor img {
     width: 25px;
-}
+}*/
 
 .picks {
   top: 0.6vh;
@@ -334,9 +334,10 @@ a {
   top: 10px;
 }
 
-.newsletter {
+/*.newsletter {
   background-color: white;
-}
+  border: 1px solid red;
+}*/
 
 #news {
   background-color: white;
@@ -415,7 +416,7 @@ form {
     margin: 0 auto;
 }
 
-.icon-n img {
+.icon-n {
     width: 30px;
 }
 
@@ -425,11 +426,21 @@ form {
   border: 1px solid red;
   font-size: 13px;
 }
+/*magazine section*/
 
 .the-magazine {
-  width: 1000px;
+  width: 900px;
+  /*border: 1px solid red;*/
 }
 
+.icon-editor img {
+    width: 25px;
+    /*border: 1px solid purple;*/
+}
+
+.starting-5 img {
+  height: 300px;
+}
   
 }
 
