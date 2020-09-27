@@ -139,14 +139,7 @@ a {
     position: relative;
 }
 
-.ranking {
-    width: auto;
-    height: 8%;
-    background-color: #e3e4e6;
-    color: blue;
-    top: 173.7px;
-    padding: 0 15px 0 15px;   
-}
+
 
 .physical {
   top: 186px;
@@ -440,6 +433,15 @@ form {
 
 .starting-5 img {
   height: 300px;
+}
+
+.ranking {
+  width: 100px;
+  height: 30px;
+  background-color: #e3e4e6;
+  color: blue;
+  top: 113.7px;
+  /*padding: 0 15px 0 15px;*/   
 }
   
 }
