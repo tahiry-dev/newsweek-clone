@@ -300,8 +300,8 @@ a {
   border: none;
   color: white;
   font-size: 20px;
-  padding: 0 6px 6px 10px;
   border-radius: 5px;
+  padding-left: 20px;
 }
 
 .vaccine {
@@ -382,6 +382,8 @@ footer h1 {
 }
 
 
+/* ---Media Queries--- */
+
 @media screen and (min-width: 992px) {
   .brand-text {
     font-size: 4em;
@@ -395,6 +397,7 @@ footer h1 {
   main {
     margin-top: 128px;
   }
+  
 
 .bonnie img,
 .jamil img {
@@ -419,16 +422,17 @@ form {
   border: 1px solid red;
   font-size: 13px;
 }
+
 /*magazine section*/
 
 .the-magazine {
   width: 900px;
-  /*border: 1px solid red;*/
+ 
 }
 
 .icon-editor img {
     width: 25px;
-    /*border: 1px solid purple;*/
+  
 }
 
 .starting-5 img {
@@ -441,10 +445,17 @@ form {
   background-color: #e3e4e6;
   color: blue;
   top: 113.7px;
-  /*padding: 0 15px 0 15px;*/   
+ 
 }
+
+.news-heading-description {
+  font-size: 16px;
+}
+
   
 }
+
+
 
 @media screen and (min-width: 1200px) {
   
