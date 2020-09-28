@@ -92,8 +92,7 @@ a {
 
 /*feature-section*/
 
-.feature {
-  border: 1px solid #fff;
+.feature { 
   background-color: #fff;
 }
 
@@ -291,9 +290,10 @@ form {
 /*Subscribe section*/
 
 .subscribe {
-  background-color: white;
-  padding: 20px 10px;
+  background-color: white; 
+  padding: 20px 50px 20px 10px;
 }
+
 
 .subscribe-button {
   background-color: red;
@@ -327,10 +327,9 @@ form {
   top: 10px;
 }
 
-/*.newsletter {
-  background-color: white;
-  border: 1px solid red;
-}*/
+.newsletter {  
+  margin: 40px 0 0 15px;
+}
 
 #news {
   background-color: white;
@@ -402,6 +401,12 @@ footer h1 {
 
 
 /* ---Media Queries--- */
+
+@media screen and (min-width: 501px) and (max-width: 991px){
+  main {
+    margin-top: 25px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .jamil {
