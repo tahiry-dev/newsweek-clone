@@ -49,7 +49,6 @@ a {
   position: absolute;
 }
 
-
 /* --- header--- */
 
 .navbar {
@@ -182,7 +181,6 @@ a {
   color: blue;
 }
 
-
 /* ---Travel and culture--- */
 .culture-badge {
   bottom: -8px;
@@ -241,7 +239,6 @@ form {
 .foc {
   bottom: 13px;
 }
-
 
 /* ---editor-section--- */
 
@@ -337,7 +334,6 @@ form {
   margin-left: -15px;
 }
 
-
 /* ---footer--- */
 
 footer {
@@ -378,7 +374,6 @@ footer h1 {
   top: 0;
   z-index: 11;
 }
-
 
 /* ---Media Queries--- */
 
