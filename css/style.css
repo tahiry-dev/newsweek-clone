@@ -101,9 +101,9 @@ a {
   background-color: #fff;
 }
 
-/*.feature-card-img-top {
+.feature-card-img-top {
   max-width: 100%;
-}*/
+}
 
 .feature-title {
   color: rgba(3,3,3,.4);
