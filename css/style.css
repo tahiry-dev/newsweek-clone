@@ -202,16 +202,15 @@ a {
     padding: 0 15px 0 15px;
 }
 
-/*.icon-n img {
-    width: 40px;
-}*/
+.icon-n {
+  height: 28px;
+}
 
-/*form {
-    background-color: #9ca6b1;
+form {
+    background-color: #f4f5f6;
     width: 360px;
     height: 200px;
-    margin: 0 auto;
-}*/
+}
 
 /* ---Magazine-section--- */
 
@@ -381,8 +380,34 @@ footer h1 {
   font-size: 13px;
 }
 
+.sign-up {
+  background-color: #F4F5F6;
+}
+
+.sign-up form {
+  height: fit-content;
+}
+
+.sign-up form {
+  width: 91%;
+}
+
+
+#free-sign-up {
+  background-color: red;
+  color: white;
+}
+
+
 
 /* ---Media Queries--- */
+
+@media screen and (min-width: 768px) {
+  .jamil {
+    margin-right: 50px;
+  }
+}
+
 
 @media screen and (min-width: 992px) {
   .brand-text {
@@ -398,29 +423,13 @@ footer h1 {
     margin-top: 128px;
   }
   
+  .jamil {
+    margin-right: 10px;
+  }
 
 .bonnie img,
 .jamil img {
   width: 70px;   
-}
-
-form {
-    background-color: #F4F5F6;
-    border: 1px solid  #F4F5F6;
-    width: auto;
-    height: 200px;
-    margin: 0 auto;
-}
-
-.icon-n {
-    width: 30px;
-}
-
-#free-sign-up {
-  background-color: #f00;
-  color: #fff;
-  border: 1px solid red;
-  font-size: 13px;
 }
 
 /*magazine section*/
@@ -454,7 +463,6 @@ form {
 
   
 }
-
 
 
 @media screen and (min-width: 1200px) {
