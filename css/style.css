@@ -101,9 +101,9 @@ a {
   background-color: #fff;
 }
 
-/*.feature-card-img-top {
+.feature-card-img-top {
   max-width: 100%;
-}*/
+}
 
 .feature-title {
   color: rgba(3,3,3,.4);
@@ -137,12 +137,6 @@ a {
 
 .storie-cards {
     position: relative;
-}
-
-
-
-.physical {
-  top: 186px;
 }
 
 .take {
@@ -180,7 +174,6 @@ a {
 
 .ranking,
 .hospital-2020 {
-  /*border: 1px solid red;*/
   bottom: -17px;
   background-color: #E7E6E6;
   padding: 5px;    
@@ -188,16 +181,15 @@ a {
 
 .hospital-2020 {
   color: blue;
-  border: 1px solid red;
 }
 
 
 /* ---Travel and culture--- */
 
 .culture-badge {
-  background-color: #c2d4d7;
-  bottom: 33px;
-  width: auto;
+  bottom: -8px;
+  background-color: #C2D4D7;
+  padding: 5px;    
 }
 
 /* ---Sponsored-insight--- */
@@ -316,10 +308,12 @@ form {
   font-size: 20px;
   border-radius: 5px;
   padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 .vaccine {
   background-color: #F4F5F6;
+  padding: 10px;
 }
 
 .subscribe-h6 {
@@ -328,11 +322,10 @@ form {
 }
 
 .subscribe-icon {
-  display: block;
-  margin-top: 13px;
-  height: 5vh;
+  padding: 10px;
+  height: 3vh;
   font-size: 20px;
-  width: 5vw;
+  width: 4vw;
 }
 
 .resized-offset {
@@ -410,6 +403,13 @@ footer h1 {
 #free-sign-up {
   background-color: red;
   color: white;
+  font-weight: bolder;
+}
+
+.div-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 11;  
 }
 
 
