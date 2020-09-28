@@ -101,9 +101,9 @@ a {
   background-color: #fff;
 }
 
-.feature-card-img-top {
+/*.feature-card-img-top {
   max-width: 100%;
-}
+}*/
 
 .feature-title {
   color: rgba(3,3,3,.4);
@@ -150,9 +150,10 @@ a {
     top: 27.5vh;
 }
 
-.best-maternity {
+/*.best-maternity {
   top: 189px;
-}
+
+}*/
 
 .survey {
     width: 38vw; 
@@ -175,6 +176,19 @@ a {
   color: #000;
   font-weight: 700;
   font-size: 18px;
+}
+
+.ranking,
+.hospital-2020 {
+  /*border: 1px solid red;*/
+  bottom: -17px;
+  background-color: #E7E6E6;
+  padding: 5px;    
+}
+
+.hospital-2020 {
+  color: blue;
+  border: 1px solid red;
 }
 
 
@@ -405,6 +419,16 @@ footer h1 {
   main {
     margin-top: 25px;
   }
+
+  /*.ranking {
+    width: auto;
+    height: 30px;
+    background-color: #e3e4e6;
+    color: blue;
+    top: 270.7px;
+    padding: 5px;
+   
+  }*/
 }
 
 @media screen and (min-width: 768px) {
@@ -453,14 +477,14 @@ footer h1 {
   height: 300px;
 }
 
-.ranking {
+/*.ranking {
   width: 100px;
   height: 30px;
   background-color: #e3e4e6;
   color: blue;
   top: 113.7px;
  
-}
+}*/
 
 .news-heading-description {
   font-size: 16px;
