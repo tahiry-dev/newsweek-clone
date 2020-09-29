@@ -453,6 +453,38 @@ footer h1 {
 
 /* ---Media Queries--- */
 
+@media screen and (min-width: 360px) and (max-width: 500.98px){
+  .nav-right {
+    /*border: 1px solid #fff;*/
+    height: 50px;
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 20px;
+  }
+
+  .subscribe-link {
+    height: 2vh;
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #000;
+    padding: 5px 5px 20px 5px;
+    margin: 0;
+  }
+
+  main {
+    margin-top: 47px;
+  }
+
+  .news-brand {
+    margin-bottom: 3px;
+  } 
+  
+}
+
+
 @media screen and (min-width: 501px) and (max-width: 991px){
   main {
     margin-top: 25px;
@@ -522,13 +554,4 @@ footer h1 {
   margin-left: 20px;
 }
   
-}
-
-
-@media screen and (min-width: 1200px) {
-  
-  .entire-section {
-    width: 85%;
-    margin: 0 auto;
-  }
 }
