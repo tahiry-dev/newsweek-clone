@@ -347,6 +347,7 @@ form {
 .vaccine {
   background-color: #F4F5F6;
   padding: 10px;
+
 }
 
 .subscribe-h6 {
@@ -368,7 +369,13 @@ form {
 }
 
 .newsletter {  
-  margin: 40px 0 0 15px;
+  /*margin: 40px 0 0 5px;*/
+  border: 1px solid purple;
+}
+
+.newsletter-border {
+  border: 1px solid black;
+  /*height: 450px;*/
 }
 
 #news {
@@ -506,23 +513,20 @@ footer h1 {
   
 }
 
+
 .starting-5 img {
-  height: 300px;
+  height: 250px;
+  border: 1px solid red;*
 }
 
-/*.ranking {
-  width: 100px;
-  height: 30px;
-  background-color: #e3e4e6;
-  color: blue;
-  top: 113.7px;
- 
-}*/
+.vaccine {
+  border: 1px solid purple;
+  /*height: 300px;*/
+}
 
 .news-heading-description {
   font-size: 16px;
 }
-
   
 }
 
