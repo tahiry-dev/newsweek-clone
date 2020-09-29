@@ -200,6 +200,10 @@ a {
   font-size: 18px;
 }
 
+.card {
+  border: none;
+}
+
 .ranking,
 .hospital-2020 {
   bottom: -17px;
