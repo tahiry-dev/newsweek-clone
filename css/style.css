@@ -10,11 +10,11 @@
 
 body {
   min-width: 360px;
-  background-color: #f4f5f6;
+  background-color: #fff;
   color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
 }
 
@@ -72,16 +72,30 @@ a {
   background-color: yellow;
   border-radius: 20px;
   font-size: 18px;
-  color: #000;
   padding: 10px 10px 30px 10px;
 }
 
 .bonnie img,
 .jamil img {
-  width: 16vw;   
+  width: 16vw;
 }
 
-.nav a {
+.nav-up a {
+  font-size: 12px;
+}
+
+.donald a {
+  color: #8c8b90;
+}
+
+.nav a,
+.subscribe-link,
+#trending,
+.jaffer,
+.flag,
+.flag-2,
+.nav-up a:hover,
+.nav-down a:hover {
   color: #000;
 }
 
@@ -90,13 +104,8 @@ a {
   color: #f00;
   font-weight: bolder;
 }
- 
-.donald a {
-  color: #8C8B90;
-}
 
 #trending {
-  color: #000;
   cursor: text;
 }
 
@@ -107,15 +116,14 @@ a {
 .card-text {
   font-size: 13px;
   color: #2c2929;
-  
 }
 
 /* ---main--- */
 
 
-/*feature-section*/
+/* feature-section */
 
-.feature { 
+.feature {
   background-color: #fff;
 }
 
@@ -133,61 +141,51 @@ a {
 }
 
 .top-story-image {
-  height: 100%; 
+  height: 100%;
 }
 
-
-
 .feature-title {
-  color: rgba(3,3,3,.4);
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
 
 .deb hr {
-    border-width: 1px solid black;
-    position: absolute;
+  position: absolute;
 }
 
 .deco {
-    
-    border: 1px solid #a59b9b;
+  border: 1px solid #a59b9b;
 }
 
 .deco hr {
-    border: 1px solid #a59b9b;
-    position: absolute;
+  border: 1px solid #a59b9b;
+  position: absolute;
 }
 
 .c-vs {
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 50%;
-    color: #fff;
-    background-color: black;
-    position: absolute;
-    border: 1px solid rgb(51, 51, 51);
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  color: #fff;
+  background-color: black;
+  position: absolute;
+  border: 1px solid rgb(51, 51, 51);
 }
 
 .storie-cards {
-    position: relative;
+  position: relative;
 }
 
 .take {
-    font-size: 11px;
-    top: 27.5vh;
+  font-size: 11px;
+  top: 27.5vh;
 }
 
-/*.best-maternity {
-  top: 189px;
-
-}*/
-
 .survey {
-    width: 38vw; 
+  width: 38vw;
 }
 
 .jaffer {
-  color: #000;
   font-weight: 700;
 }
 
@@ -200,7 +198,6 @@ a {
 }
 
 .flag {
-  color: #000;
   font-weight: 700;
   font-size: 18px;
 }
@@ -208,8 +205,8 @@ a {
 .ranking,
 .hospital-2020 {
   bottom: -17px;
-  background-color: #E7E6E6;
-  padding: 5px;    
+  background-color: #e7e6e6;
+  padding: 5px;
 }
 
 .hospital-2020 {
@@ -221,8 +218,8 @@ a {
 
 .culture-badge {
   bottom: -8px;
-  background-color: #C2D4D7;
-  padding: 5px;    
+  background-color: #c2d4d7;
+  padding: 5px;
 }
 
 /* ---Sponsored-insight--- */
@@ -234,11 +231,11 @@ a {
 }
 
 .sponsored-insight {
-    width: auto;
-    background-color: #e3e4e6;
-    color: blue;
-    top: 23vh;
-    padding: 0 15px 0 15px;
+  width: auto;
+  background-color: #e3e4e6;
+  color: blue;
+  top: 23vh;
+  padding: 0 15px 0 15px;
 }
 
 .icon-n {
@@ -246,16 +243,12 @@ a {
 }
 
 form {
-    background-color: #f4f5f6;
-    width: 360px;
-    height: 200px;
+  background-color: #f4f5f6;
+  width: 360px;
+  height: 200px;
 }
 
 /* ---Magazine-section--- */
-
-.see-all {
-  color: #111;
-}
 
 .magazine-description {
   color: rgb(7, 6, 6);
@@ -277,8 +270,7 @@ form {
   color: #f00;
 }
 
-.foc
- {
+.foc {
   bottom: 13px;
 }
 
@@ -288,10 +280,6 @@ form {
 .editor-bagde {
   bottom: 0;
 }
-
-/*.icon-editor img {
-    width: 25px;
-}*/
 
 .picks {
   top: 0.6vh;
@@ -311,9 +299,10 @@ form {
   top: 176px;
 }
 
-.joe-bidden  {
+.joe-bidden {
   top: 39vh;
 }
+
 .see-all {
   text-align: center;
   color: #000;
@@ -321,18 +310,16 @@ form {
 }
 
 .flag-2 {
-  color: #000;
   font-weight: 700;
   font-size: 15px;
 }
 
-/*Subscribe section*/
+/* Subscribe section */
 
 .subscribe {
-  background-color: white; 
+  background-color: white;
   padding: 20px 50px 20px 10px;
 }
-
 
 .subscribe-button {
   background-color: red;
@@ -345,9 +332,8 @@ form {
 }
 
 .vaccine {
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
   padding: 10px;
-
 }
 
 .subscribe-h6 {
@@ -360,14 +346,6 @@ form {
   height: 3vh;
   font-size: 20px;
   width: 4vw;
-}
-
-.newsletter {
-  border: 1px border red;
-}
-
-.newsletter-border {
-  border: 1px solid grey;
 }
 
 .resized-offset {
@@ -400,7 +378,7 @@ form {
 /* ---footer--- */
 
 footer {
-  background-color: white;  
+  background-color: white;
 }
 
 footer h1 {
@@ -412,33 +390,21 @@ footer h1 {
   font-size: 18px;
 }
 
-.nav-up a {
-  font-size: 12px;
-}
-
-.nav-up a:hover,
-.nav-down a:hover {
-  color: #000;
-}
-
 .nav-down {
   font-size: 13px;
 }
 
 .sign-up {
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
 }
 
 .sign-up form {
   height: fit-content;
-}
-
-.sign-up form {
   width: 91%;
 }
 
-
-#free-sign-up {
+#free-sign-up,
+#sign-up-form {
   background-color: red;
   color: white;
   font-weight: bolder;
@@ -447,15 +413,14 @@ footer h1 {
 .div-sticky {
   position: sticky;
   top: 0;
-  z-index: 11;  
+  z-index: 11;
 }
 
 
 /* ---Media Queries--- */
 
-@media screen and (min-width: 360px) and (max-width: 500.98px){
+@media screen and (min-width: 360px) and (max-width: 500.98px) {
   .nav-right {
-    /*border: 1px solid #fff;*/
     height: 50px;
     width: 180px;
     display: flex;
@@ -480,12 +445,10 @@ footer h1 {
 
   .news-brand {
     margin-bottom: 3px;
-  } 
-  
+  }
 }
 
-
-@media screen and (min-width: 501px) and (max-width: 991px){
+@media screen and (min-width: 501px) and (max-width: 991px) {
   main {
     margin-top: 25px;
   }
@@ -501,7 +464,6 @@ footer h1 {
   }
 }
 
-
 @media screen and (min-width: 992px) {
   .brand-text {
     font-size: 4em;
@@ -515,43 +477,46 @@ footer h1 {
   main {
     margin-top: 128px;
   }
-  
+
   .jamil {
     margin-right: 10px;
   }
 
-.bonnie img,
-.jamil img {
-  width: 70px;   
-}
+  .bonnie img,
+  .jamil img {
+    width: 70px;
+  }
 
-/*magazine section*/
+  /* magazine section */
 
-.the-magazine {
-  width: 900px;
- 
-}
+  .the-magazine {
+    width: 900px;
+  }
 
-.icon-editor img {
+  .icon-editor img {
     width: 25px;
-  
+  }
+
+  .vaccine {
+    background-color: #f4f5f6;
+    padding: 25px 10px;
+  }
+
+  .starting-5 img {
+    height: 280px;
+  }
+
+  .news-heading-description {
+    font-size: 16px;
+  }
+
+  .subscribe-description {
+    margin-left: 20px;
+  }
 }
 
-.vaccine {
-  background-color: #F4F5F6;
-  padding: 25px 10px;
-}
-
-.starting-5 img {
-  height: 280px;
-}
-
-.news-heading-description {
-  font-size: 16px;
-}
-
-.subscribe-description {
-  margin-left: 20px;
-}
-  
+@media screen and (min-width: 1200px) {
+  main {
+    margin-top: 150px;
+  }
 }
