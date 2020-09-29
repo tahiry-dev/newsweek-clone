@@ -362,20 +362,18 @@ form {
   width: 4vw;
 }
 
+.newsletter {
+  border: 1px border red;
+}
+
+.newsletter-border {
+  border: 1px solid grey;
+}
+
 .resized-offset {
   z-index: 5;
   left: 90px;
   top: 10px;
-}
-
-.newsletter {  
-  /*margin: 40px 0 0 5px;*/
-  border: 1px solid purple;
-}
-
-.newsletter-border {
-  border: 1px solid black;
-  /*height: 450px;*/
 }
 
 #news {
@@ -407,6 +405,10 @@ footer {
 
 footer h1 {
   color: red;
+}
+
+.footer-logo {
+  width: 20%;
 }
 
 .editions-text {
@@ -459,16 +461,6 @@ footer h1 {
   main {
     margin-top: 25px;
   }
-
-  /*.ranking {
-    width: auto;
-    height: 30px;
-    background-color: #e3e4e6;
-    color: blue;
-    top: 270.7px;
-    padding: 5px;
-   
-  }*/
 }
 
 @media screen and (min-width: 768px) {
@@ -513,19 +505,21 @@ footer h1 {
   
 }
 
-
-.starting-5 img {
-  height: 250px;
-  border: 1px solid red;*
+.vaccine {
+  background-color: #F4F5F6;
+  padding: 25px 10px;
 }
 
-.vaccine {
-  border: 1px solid purple;
-  /*height: 300px;*/
+.starting-5 img {
+  height: 280px;
 }
 
 .news-heading-description {
   font-size: 16px;
+}
+
+.subscribe-description {
+  margin-left: 20px;
 }
   
 }
