@@ -407,10 +407,6 @@ footer h1 {
   color: red;
 }
 
-.footer-logo {
-  width: 20%;
-}
-
 .editions-text {
   color: #666;
   font-size: 18px;
@@ -466,6 +462,10 @@ footer h1 {
 @media screen and (min-width: 768px) {
   .jamil {
     margin-right: 50px;
+  }
+
+  .subscribe-h6 {
+    margin-top: 15px;
   }
 }
 
