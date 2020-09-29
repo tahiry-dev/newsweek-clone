@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Newsweek website replica
 
 > This project involve building a replica of the newsweek using twitter-bootstrap framework, HTML and CSS and making it responsive on both mobile, tablet and desktop size screens with the aid of the twitter-bootstrap framework.
 
@@ -24,16 +24,6 @@
 
 This project consists of replicating the newsweek  and making it responsive using twitter-bootstrap. 
 
-
-
-
-To get a local copy up and running follow these simple example steps.
-
-
-### Prerequisites
-
-To view the project live you need a browser on your machine.
-
 ## Authors
 
 👤 **Tahiry RANDRIAMIARINTSOA**
@@ -48,11 +38,6 @@ To view the project live you need a browser on your machine.
 - Twitter: [@enaburekhaneric](https://twitter.com/enaburekhaneric)
 - Linkedin: [@ericenaburekhan](https://www.linkedin.com/in/eric-enaburekhan-801a28100/)
 
-
-## 🤝 Contributing
-
-The best way you can contribute to this project is by submitting an [issue](https://github.com/cristianCeamatu/microverse-bubble-sort/issues) to help us improve it!
-
 ## Show your support
 
 If you've read this far, you must like the project! Give us a ⭐️!
@@ -61,7 +46,3 @@ If you've read this far, you must like the project! Give us a ⭐️!
 
 - This Project was part of an assignment available on The Odin Project.
 - Our thanks to Microverse and all our peers and colleagues there.
-
-## 📝 License
-
-This project has no license
