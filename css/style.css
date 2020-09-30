@@ -19,13 +19,12 @@ body {
 }
 
 main {
-  margin: 0 -10px
+  margin: 0 -10px;
 }
 
 img {
   height: 100%;
   width: 100%;
-  
 }
 
 .parent-element {
@@ -305,7 +304,7 @@ form {
   left: 33vw;
 }
 
-.editors-position { 
+.editors-position {
   color: rgb(245, 0, 0);
 }
 
@@ -374,14 +373,13 @@ form {
   color: #000;
 }
 
- .magazine-title {
-    margin-top: -5px;
-    height: 14px;
-    display: block;
-    font-weight: bolder;
-    font-size: 18px;
+.magazine-title {
+  margin-top: -5px;
+  height: 14px;
+  display: block;
+  font-weight: bolder;
+  font-size: 18px;
 }
-
 
 .social-share-icons {
   width: 200px;
@@ -434,9 +432,7 @@ footer h1 {
   max-height: 102px;
 }
 
-
 /* --------------------------Media Queries--------------------- */
-
 
 @media screen and (min-width: 360px) and (max-width: 992px) {
   .nav-right {
@@ -448,7 +444,6 @@ footer h1 {
     padding-top: 20px;
   }
 
-  
   .subscribe-link {
     height: 2vh;
     background-color: yellow;
@@ -469,14 +464,14 @@ footer h1 {
 
   .nav-on-top {
     height: 70px;
-  } 
-
-}
- @media screen and (min-width: 586px) and (max-width: 991px) {
-  .news-brand {
-      padding-top: 30px;
   }
-} 
+}
+
+@media screen and (min-width: 586px) and (max-width: 991px) {
+  .news-brand {
+    padding-top: 30px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .jamil {
@@ -486,7 +481,6 @@ footer h1 {
   .subscribe-h6 {
     margin-top: 15px;
   }
-  
 }
 
 @media screen and (min-width: 992px) {
