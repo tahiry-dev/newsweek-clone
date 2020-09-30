@@ -1,0 +1,541 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---Global CSS--- */
+
+body {
+  min-width: 360px;
+  background-color: #fff;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+main {
+  margin: 0 -10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.parent-element {
+  position: relative;
+}
+
+a {
+  color: #000;
+}
+
+.child-element {
+  position: absolute;
+}
+
+/* --- header--- */
+
+.nav-container {
+  padding: 0;
+}
+
+.nav-on-top {
+  background-color: #f00;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+.nav-image-brand {
+  width: 30%;
+}
+
+.bottom-menu {
+  border-top: 2px solid #f4f5f6;
+  border-bottom: 2px solid #f4f5f6;
+  width: 100%;
+}
+
+.news-brand {
+  width: 100%;
+  min-width: 150px;
+}
+
+.fa-portrait,
+.fa-bars {
+  color: #fff;
+}
+
+.right-arrow {
+  height: 30px;
+}
+
+.subscribe-link {
+  height: 4vh;
+  background-color: yellow;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 10px 10px 30px 10px;
+}
+
+.bonnie img,
+.jamil img {
+  width: 16vw;
+}
+
+.nav-up a {
+  font-size: 12px;
+}
+
+.donald a {
+  color: #8c8b90;
+}
+
+.nav a,
+.subscribe-link,
+#trending,
+.jaffer,
+.flag,
+.flag-2,
+.nav-up a:hover,
+.nav-down a:hover {
+  color: #000;
+}
+
+.nav a:hover,
+.donald a:hover {
+  color: #f00;
+  font-weight: bolder;
+}
+
+#trending {
+  cursor: text;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.card-text {
+  font-size: 13px;
+  color: #2c2929;
+}
+
+/* ---main--- */
+
+/* feature-section */
+
+.feature {
+  background-color: #fff;
+}
+
+.feature-container,
+.single-card {
+  background-color: #fff;
+}
+
+.feature-card-img-top {
+  max-width: 100%;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.top-story-image {
+  height: 100%;
+  width: 100%;
+}
+
+.feature-title {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+}
+
+.deb hr {
+  position: absolute;
+}
+
+.deco {
+  border: 1px solid #a59b9b;
+}
+
+.deco hr {
+  border: 1px solid #a59b9b;
+  position: absolute;
+}
+
+.c-vs {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  color: #fff;
+  background-color: black;
+  position: absolute;
+  border: 1px solid rgb(51, 51, 51);
+}
+
+.storie-cards {
+  position: relative;
+}
+
+.take {
+  font-size: 11px;
+  top: 27.5vh;
+}
+
+.survey {
+  width: 38vw;
+}
+
+.jaffer {
+  font-weight: 700;
+}
+
+.by {
+  color: rgb(143, 132, 132);
+}
+
+.star {
+  font-size: 13px;
+}
+
+.flag {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card {
+  border: none;
+}
+
+.ranking,
+.hospital-2020 {
+  bottom: -17px;
+  background-color: #e7e6e6;
+  padding: 5px;
+}
+
+.hospital-2020 {
+  color: blue;
+}
+
+/* ---Travel and culture--- */
+
+.culture-badge {
+  bottom: -8px;
+  background-color: #c2d4d7;
+  padding: 5px;
+}
+
+/* ---Sponsored-insight--- */
+
+.sponsored-title {
+  color: #111;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.sponsored-insight {
+  width: auto;
+  background-color: #e3e4e6;
+  color: blue;
+  top: 23vh;
+  padding: 0 15px 0 15px;
+}
+
+.icon-n {
+  width: 28px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: #f4f5f6;
+  width: 360px;
+  height: 200px;
+}
+
+/* ---Magazine-section--- */
+
+.magazine-description {
+  color: rgb(7, 6, 6);
+  font-size: 16px;
+  line-height: 0.1;
+}
+
+.cover,
+.focus {
+  background-color: #f00;
+}
+
+.focus {
+  bottom: 13px;
+}
+
+.news,
+.us-bottom {
+  color: #f00;
+}
+
+.foc {
+  bottom: 13px;
+}
+
+/* ---editor-section--- */
+
+.editor-bagde {
+  bottom: 0;
+}
+
+.picks {
+  top: 0.6vh;
+  left: 25vw;
+}
+
+.picks-text {
+  top: 1.5vh;
+  left: 33vw;
+}
+
+.editors-position {
+  color: rgb(245, 0, 0);
+}
+
+.joe-bidden {
+  top: 39vh;
+}
+
+.see-all {
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+}
+
+.flag-2 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Subscribe section */
+
+.subscribe {
+  background-color: white;
+  padding: 20px 50px 20px 10px;
+}
+
+.subscribe-button {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.vaccine {
+  background-color: #f4f5f6;
+  padding: 10px;
+}
+
+.subscribe-h6 {
+  color: #f00;
+  font-weight: bolder;
+}
+
+.subscribe-icon {
+  padding: 10px;
+  height: 3vh;
+  font-size: 20px;
+  width: 4vw;
+}
+
+.resized-offset {
+  z-index: 5;
+  left: 90px;
+  top: 10px;
+}
+
+#news {
+  background-color: white;
+  width: 100%;
+}
+
+#news-heading {
+  font-size: 25px;
+  color: #000;
+}
+
+.magazine-title {
+  margin-top: -5px;
+  height: 14px;
+  display: block;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.social-share-icons {
+  width: 200px;
+}
+
+/* ---article--- */
+
+.article-images {
+  margin-left: -15px;
+}
+
+/* ---footer--- */
+
+footer {
+  background-color: white;
+}
+
+footer h1 {
+  color: red;
+}
+
+.editions-text {
+  color: #666;
+  font-size: 18px;
+}
+
+.nav-down {
+  font-size: 13px;
+}
+
+.sign-up {
+  background-color: #f4f5f6;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sign-up form {
+  height: fit-content;
+  width: 91%;
+}
+
+#free-sign-up,
+#sign-up-form {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+}
+
+.little-sized-image {
+  max-height: 102px;
+}
+
+/* --------------------------Media Queries--------------------- */
+
+@media screen and (min-width: 360px) and (max-width: 992px) {
+  .nav-right {
+    height: 50px;
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 20px;
+  }
+
+  .subscribe-link {
+    height: 2vh;
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #000;
+    padding: 5px 5px 20px 5px;
+    margin: 0;
+  }
+
+  main {
+    margin-top: 47px;
+  }
+
+  .news-brand {
+    margin-bottom: 3px;
+  }
+
+  .nav-on-top {
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 586px) and (max-width: 991px) {
+  .news-brand {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .jamil {
+    margin-right: 50px;
+  }
+
+  .subscribe-h6 {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .brand-text {
+    font-size: 4em;
+    margin-top: 20px;
+  }
+
+  header {
+    background-color: #fff;
+  }
+
+  main {
+    margin-top: 128px;
+  }
+
+  .jamil {
+    margin-right: 10px;
+  }
+
+  .bonnie img,
+  .jamil img {
+    width: 70px;
+  }
+
+  /* magazine section */
+
+  .the-magazine {
+    width: 900px;
+  }
+
+  .icon-editor img {
+    width: 25px;
+  }
+
+  .vaccine {
+    background-color: #f4f5f6;
+    padding: 25px 10px;
+  }
+
+  .starting-5 img {
+    height: 280px;
+  }
+
+  .news-heading-description {
+    font-size: 16px;
+  }
+
+  .subscribe-description {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    margin-top: 150px;
+  }
+}
